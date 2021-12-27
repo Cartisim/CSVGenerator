@@ -9,7 +9,7 @@
 import Cocoa
 import NIO
 
-@NSApplicationMain
+@main
 class AppDelegate: NSObject, NSApplicationDelegate {
     
     var store: SQLiteStore?
